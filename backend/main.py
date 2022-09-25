@@ -9,7 +9,7 @@ def include_router(app):
 
 def start_application():
     app = FastAPI(title=settings.PROJECT_NAME,
-                  debug=settings.DEBUG, version=settings.VERSION)
+                  version=settings.PROJECT_VERSION)
     include_router(app)
     return app
 
