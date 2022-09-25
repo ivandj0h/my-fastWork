@@ -1,3 +1,16 @@
+#core
 fastapi
 uvicorn
+
+#template
 jinja2
+
+#static files
+aiofiles
+
+#database
+sqlalchemy         
+psycopg2
+
+#environment variables
+python-dotenv
